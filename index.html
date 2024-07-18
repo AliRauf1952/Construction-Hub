@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Company</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Tailwind CSS (for utility classes) -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.17/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-900 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <a href="#" class="font-bold text-xl">Construction Company</a>
+            <ul class="flex">
+                <li class="ml-4"><a href="#about" class="hover:text-gray-300">About Us</a></li>
+                <li class="ml-4"><a href="#services" class="hover:text-gray-300">Services</a></li>
+                <li class="ml-4"><a href="#portfolio" class="hover:text-gray-300">Portfolio</a></li>
+                <li class="ml-4"><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-800 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-4">Building Dreams, Brick by Brick</h1>
+            <p class="text-lg mb-8">Your trusted partner in construction solutions</p>
+            <a href="#contact" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-full font-bold uppercase">Get a Quote</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">About Us</h2>
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/2 mb-4 md:mb-0">
+                    <img src="about-image.jpg" alt="About Us" class="rounded-lg shadow-lg">
+                </div>
+                <div class="w-full md:w-1/2 md:pl-8">
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut libero nec justo gravida maximus. Sed in eros in nulla ultrices congue.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut libero nec justo gravida maximus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">Our Services</h2>
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div class="bg-gray-200 rounded-lg p-6 text-center">
+                        <i class="fas fa-home text-4xl mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Residential Construction</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div class="bg-gray-200 rounded-lg p-6 text-center">
+                        <i class="fas fa-building text-4xl mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Commercial Projects</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div class="bg-gray-200 rounded-lg p-6 text-center">
+                        <i class="fas fa-tools text-4xl mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Renovations</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">Portfolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md">
+                    <img src="images/image.png" alt="Project 1" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold mb-2">Project Name 1</h3>
+                        <p class="text-gray-700 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="text-blue-500 hover:underline">View Details</a>
+                    </div>
+                </div>
+                <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md">
+                    <img src="images/image.png" alt="Project 2" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold mb-2">Project Name 2</h3>
+                        <p class="text-gray-700 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="text-blue-500 hover:underline">View Details</a>
+                    </div>
+                </div>
+                <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md">
+                    <img src="images/image.png" alt="Project 3" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold mb-2">Project Name 3</h3>
+                        <p class="text-gray-700 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="text-blue-500 hover:underline">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-800 text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">Contact Us</h2>
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/2 mb-4 md:mb-0">
+                    <form action="#" method="POST" class="bg-gray-900 rounded-lg p-8">
+                        <h3 class="text-xl font-bold mb-4">Get in Touch</h3>
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-300 mb-2">Your Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-3 py-2 bg-gray-800 rounded-lg text-white">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-300 mb-2">Your Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-3 py-2 bg-gray-800 rounded-lg text-white">
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-300 mb-2">Your Message</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-3 py-2 bg-gray-800 rounded-lg text-white"></textarea>
+                        </div>
+                        <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-full font-bold uppercase">Send Message</button>
+                    </form>
+                </div>
+                <div class="w-full md:w-1/2 md:pl-8">
+                    <div class="bg-gray-900 rounded-lg p-8">
+                        <h3 class="text-xl font-bold mb-4">Contact Information</h3>
+                        <p class="text-gray-300 mb-2"><i class="fas fa-map-marker-alt mr-2"></i>123 Construction Street, City, Country</p>
+                        <p class="text-gray-300 mb-2"><i class="fas fa-phone-alt mr-2"></i>+123 456 789</p>
+                        <p class="text-gray-300 mb-2"><i class="fas fa-envelope mr-2"></i>info@constructioncompany.com</p>
+                        <div class="mt-4">
+                            <a href="#" class="text-gray-300 hover:text-white mr-4"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="text-gray-300 hover:text-white mr-4"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Construction Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (optional, for certain components like modals or dropdowns) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
